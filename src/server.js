@@ -18,9 +18,9 @@ const server = http.createServer((req, res) => {
     return res.end("User created");
   }
   if (method === "PUT" && url === "/users/1") {
-    return res.end("User updated");
+    return res.writeHead(201).end("User updated");
   }
-  res.end("Hello World\n");
+  res.writeHead(404).end("Not found");
 });
 
 server.listen(3333);
