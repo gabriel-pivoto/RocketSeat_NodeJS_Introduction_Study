@@ -1,7 +1,3 @@
-Claro! Aqui está um **Markdown em inglês** bem organizado sobre o tema, pronto para usar:
-
----
-
 # Understanding Streams in Node.js
 
 ## What are Streams?
